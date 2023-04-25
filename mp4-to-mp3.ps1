@@ -1,4 +1,4 @@
-# MP4 TO MP3
+# MP4 TO MP3 #
 # this is a simple powershell script to convert mp4 files to mp3 files
 #Make sure to have the NAudio library installed on your system for this 
 #script to work. You can install it using the following command:
