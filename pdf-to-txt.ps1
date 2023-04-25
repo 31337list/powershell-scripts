@@ -1,4 +1,4 @@
-# PDF TO TEXT
+# PDF TO TEXT #
 # This script uses the iTextSharp library to extract text from a PDF file and save it to a text file. 
 # You’ll need to have the iTextSharp library installed on your system and update the path to the itextsharp.dll
 # file in the script
