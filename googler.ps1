@@ -1,3 +1,5 @@
+#googler
+
 # Prompt user for input
 $searchTerm = Read-Host "Enter a search term"
 
