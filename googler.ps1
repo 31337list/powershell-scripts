@@ -7,7 +7,7 @@ $searchTerm = Read-Host "Enter a search term"
 $searchUrl = "https://www.google.com/search?q=$searchTerm"
 
 # Invoke web request to search URL and get HTML content
-$searchHtml = Invoke-WebRequest -Uri $searchUrl
+$searchHtml = Invoke-WebRequest -Uri -UseBasicParsing $searchUrl
 
 # Parse HTML content to extract search results
 $searchResults = $searchHtml.ParsedHtml.GetElementsByClassName("g")
