@@ -5,7 +5,7 @@ $searchTerm = Read-Host "Enter a search term"
 $searchUrl = "https://duckduckgo.com/html/?q=$searchTerm"
 
 # Invoke web request to search URL and get HTML content
-$searchHtml = Invoke-WebRequest -Uri $searchUrl
+$searchHtml = Invoke-WebRequest -Uri $searchUrl -UseBasicParsing
 
 # Parse HTML content to extract search results
 $searchResults = $searchHtml.ParsedHtml.GetElementsByClassName("result")
